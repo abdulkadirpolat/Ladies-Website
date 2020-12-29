@@ -1,0 +1,426 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1920px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    max-height: 1080px;
+    height: 100%;
+}
+
+.first {
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    display: flex;
+    height: 142px;
+    width: 1920px;
+    background-color: rgb(255, 255, 255);
+}
+
+.first input {
+    width: 440px;
+    height: 72px;
+    border-radius: 25px;
+    border: 1px solid#E7E7E7;
+    align-self: flex-start;
+    margin: 52px 0px 0px 858px;
+    font-size: 24px;
+    display: flex;
+    color: #473889;
+}
+
+.first i:nth-last-child(1):not(#gem) {
+    align-self: flex-start;
+    margin: 52px 105px 40px 70px;
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    background-color: #ebe5f6;
+    border-radius: 50%;
+}
+
+.first i:nth-last-of-type(2) {
+    align-self: flex-start;
+    margin: 72px 0px 0px 121px;
+}
+
+i {
+    font-size: 28px;
+    color: #342869;
+}
+
+#gem {
+    align-self: flex-start;
+    margin: 73px 0px 40px 0px;
+}
+
+.face {
+    color: #473889;
+    flex-direction: column;
+
+    display: flex;
+    font-size: 28px;
+    width: 1920px;
+    height: 284px;
+    background-color: rgb(255, 255, 255);
+}
+
+.second {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    height: 142px;
+    width: 1920px;
+}
+
+.second p:nth-of-type(1) {
+    margin-left: 101px;
+    margin-right: 204px;
+    font-size: 80px;
+    font-family: "Andika New Basic", sans-serif;
+    align-self: flex-end;
+}
+
+.second p:not(.best) {
+    margin-bottom: 47px;
+    font-size: 28px;
+}
+
+.second p:nth-of-type(2) {
+    margin-right: 33px;
+    align-self: flex-end;
+}
+
+.second i:nth-of-type(2) {
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    line-height: 72px;
+    display: flex;
+    border-radius: 50%;
+    border: 1px solid rgba(114, 112, 112, 0.178);
+    width: 72px;
+    height: 72px;
+    margin-bottom: 25px;
+}
+
+.second i:nth-of-type(3) {
+    margin: 0px 170px 47px 29px;
+    opacity: 20%;
+}
+
+.second i:not(#icon) {
+    font-size: 28px;
+}
+
+#icon {
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    line-height: 72px;
+    display: flex;
+    border-radius: 50%;
+    border: 0.1px solid rgba(114, 112, 112, 0.178);
+    width: 72px;
+    height: 72px;
+    margin: 0px 312px 25px 0px;
+}
+
+.face p:nth-of-type(1):not(.best) {
+    margin: 76px 24px 23px 101px;
+    align-self: flex-start;
+}
+
+.mask {
+    display: flex;
+    flex-direction: row;
+    max-width: 1920px;
+    max-height: 812px;
+    background-color: rgb(255, 255, 255);
+}
+
+.bottle {
+    display: flex;
+    flex-direction: row;
+    width: 1332px;
+    height: 812px;
+}
+
+.bottle .box {
+    box-shadow: 0px 35px 50px -50px;
+
+    border-radius: 40px;
+    border: solid 2px rgb(245, 242, 242);
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 61px;
+    height: 640px;
+    margin-bottom: 111px;
+}
+
+.bottle .box:nth-of-type(1) .b {
+    background-color: #776fc3;
+}
+
+.bottle .box .b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 32px;
+    background-color: #e7ddf2;
+    border-radius: 35px;
+    margin: 0px 8px 8px 8px;
+    width: 382px;
+    height: 200px;
+}
+
+.b div {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.b .b div span {
+    margin-left: 37px;
+}
+
+.b span {
+    margin: 0px 0px 0px 37px;
+}
+
+#plus {
+    font-size: 40px;
+    align-self: flex-end;
+    width: 61px;
+    height: 61px;
+    border-radius: 50px;
+    background-color: #574a97;
+    line-height: 61px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#pluss {
+    font-size: 40px;
+    align-self: flex-end;
+    margin-right: 24px;
+    width: 61px;
+    height: 61px;
+    border-radius: 50px;
+    background-color: white;
+    line-height: 61px;
+    text-align: center;
+}
+
+.col {
+    color: #c9c4ff;
+}
+
+.b span:nth-of-type(2) {
+    font-size: 18px;
+}
+
+#d {
+    font-size: 24px;
+    margin-top: 27px;
+}
+
+.img1 {
+    margin: 81px 0px 60px 97px;
+    background-size: cover;
+    width: 301px;
+    height: 294px;
+    background-image: url(../img/fruit.png);
+}
+
+.img2 {
+    background-size: cover;
+    margin: 81px 0px 60px 97px;
+    width: 301px;
+    height: 294px;
+    background-image: url(../img/rice.png);
+}
+
+.img3 {
+    background-size: cover;
+    margin: 81px 0px 60px 97px;
+    width: 301px;
+    height: 294px;
+    background-image: url(../img/fruit.png);
+}
+
+.bottle .box:nth-of-type(1) {
+    color: white;
+    width: 398px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 101px;
+    border-radius: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.137);
+}
+
+.bottle .box:nth-of-type(2) {
+    color: #473889;
+    width: 398px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 41px;
+    border-radius: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.137);
+}
+
+.bottle .box:nth-of-type(3) {
+    color: #473889;
+    width: 398px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 43px;
+    opacity: 20%;
+    border-radius: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.137);
+}
+
+.acces {
+    flex-direction: column;
+    display: flex;
+    max-width: 488px;
+    max-height: 693px;
+    margin-bottom: 119px;
+
+    margin-right: 100px;
+}
+
+.acces .box {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.acces .box span:nth-of-type(1) {
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.acces .box span {
+    font-size: 16px;
+}
+
+.acces .box:nth-of-type(1) {
+    align-self: flex-start;
+    font-size: 37px;
+    margin-left: 47px;
+}
+
+.color {
+    color: #707070;
+}
+
+.acces .box:nth-of-type(1) {
+    color: #473889;
+    margin-top: 61px;
+    width: 440px;
+    height: 184px;
+    background-color: white;
+    border-radius: 40px;
+    border: solid 2px #e7e7e76b;
+}
+
+.acces .box:nth-of-type(2) {
+    color: #ffffff;
+    z-index: 0;
+    width: 488px;
+    height: 184px;
+    background-color: #776fc3;
+    margin-top: 40px;
+    border-radius: 40px;
+}
+
+.acces .box:nth-of-type(3) {
+    color: #473889;
+    border-radius: 40px;
+    width: 440px;
+    height: 184px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 48px;
+    border: solid 2px #e7e7e769;
+}
+
+.oval {
+    margin-right: 57px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.ovall {
+    align-self: flex-start;
+    background-image: url(../img/cam.png);
+    background-size: cover;
+    margin-right: 57px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.dolar {
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+    transform: rotate(270deg);
+    color: #d1d1d1fb;
+    border-radius: 50px;
+    background-color: #574a97;
+    width: 138px;
+    height: 52px;
+}
+
+.box .oval:nth-child(1) {
+    background-color: #ffe3e3;
+    margin-left: 95px;
+    background-image: url(../img/comb.png);
+    background-size: cover;
+}
+
+.box .oval:nth-of-type(2) {
+    background-color: #ebe5f4;
+    background-image: url(../img/watch.png);
+    background-size: cover;
+}
+
+.ovall {
+    background-color: #e5f6ff;
+    margin-left: 95px;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 60px;
+}
+
+.end span:nth-of-type(2) {
+    line-height: 35px;
+}
